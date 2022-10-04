@@ -38,7 +38,7 @@ The bridge includes the ability to trigger callbacks in L2 when sending tokens f
 
 ## Previous audit report
 
-A previous version of this code was audited (together with 3 other PRs) by OpenZeppelin on July 2022. A report for this audit, which also includes the 3 other PRs that are out of scope, is available [here](https://github.com/graphprotocol/contracts/blob/a2a09a5aac15dd468d73f9c02618a74edafb0fff/audits/OpenZeppelin/2022-07-graph-arbitrum-bridge-audit.pdf); the list of issues from that report that are relevant to this scope is available in [this document](https://github.com/graphprotocol/contracts/blob/a2a09a5aac15dd468d73f9c02618a74edafb0fff/audits/OpenZeppelin/2022-07-pr552-summary.pdf). Any reports that are duplicates of issues mentioned there will be considered invalid, unless:
+A previous version of this code was audited (together with 3 other PRs) by OpenZeppelin on July 2022. A report for this audit, which also includes the 3 other PRs that are out of scope, is available [here](./audits/OpenZeppelin/2022-07-graph-arbitrum-bridge-audit.pdf); the list of issues from that report that are relevant to this scope is available in [this document](./audits/OpenZeppelin/2022-07-pr552-summary.pdf). Any reports that are duplicates of issues mentioned there will be considered invalid, unless:
 
 - The issue was marked as fixed but it has since been reintroduced
 - The issue was marked as fixed but the fix doesn’t actually solve the issue
