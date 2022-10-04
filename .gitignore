@@ -1,3 +1,5 @@
+# Original C4 gitignore
+
 # Logs
 logs
 *.log
@@ -19,7 +21,7 @@ pids
 lib-cov
 
 # Coverage directory used by tools like istanbul
-coverage
+# coverage
 *.lcov
 
 # nyc test coverage
@@ -102,3 +104,27 @@ dist
 
 # TernJS port file
 .tern-port
+
+# graphprotocol/contracts gitignore
+
+node_modules/
+
+# Ignore build stuff
+cache/
+build/
+dist/
+
+# Hardhat cache
+cached/
+
+# Ignore solc bin output
+bin/
+
+# Others
+.env
+.DS_Store
+.vscode
+
+# Coverage and other reports
+/reports
+coverage.json
