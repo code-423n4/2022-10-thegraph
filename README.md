@@ -89,11 +89,11 @@ The contracts in scope that will be deployed are the following:
 
 Each of these will be deployed behind a proxy, so we're including the proxy and upgrade logic in the scope, as well as the dependencies for the contracts in scope that relate to governance and the pausing mechanism.
 
-The means that the following files are in scope:
+This means that the following files are in scope:
 
 ```
 +------------------------------------------------------+------------+
-| filename                                             | code       |
+| filename                                             | LOC        |
 +------------------------------------------------------+------------+
 | contracts/curation/ICuration.sol                     |         35 |
 | contracts/curation/IGraphCurationToken.sol           |          7 |
