@@ -56,4 +56,6 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 - Starts October 7, 2022 20:00 UTC
 - Ends October 12, 2022 20:00 UTC
 
+**IMPORTANT NOTE**: Prior to receiving payment from this contest you MUST become a Certified Warden (successfully complete KYC and pass screening for OFAC sanctions). You do not have to complete this process before competing or submitting bugs.
+
 [ ⭐️ SPONSORS ADD INFO HERE ]
