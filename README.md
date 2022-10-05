@@ -100,10 +100,9 @@ The contracts in scope that will be deployed are the following:
 
 Each of these will be deployed behind a proxy, so we're including the proxy and upgrade logic in the scope, as well as the dependencies for the contracts in scope that relate to governance and the pausing mechanism.
 
-The files in `contracts/arbitrum/**.sol`  are copied from the Arbitrum repo so not in scope, but submissions showing a bug in these that affects our contracts will be considered valid.
+The files in `contracts/arbitrum/**.sol`  are copied from the Arbitrum repo so not in scope; the only change from the original was the solidity version.
 
-All other files in the repo are not in scope, unless a Warden can show that the introduction of the gateways introduces a vulnerability in them; this would be considered a valid submission as well.
-
+All other files in the repo are not in scope.
 
 ### Files in scope
 
