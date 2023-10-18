@@ -1,0 +1,660 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q4-2022 / thegraph-oct7
+==============================================================
+
+[10/06/2022 16:02] kartoonjoy
+👋 Hello and welcome to the contest channel for the $50K USDC **The Graph L2 bridge contest** contest!
+
+📆 Contest opens 10/07/2022 20:00 (20:00 UTC) and runs through 10/12/2022 20:00 (20:00 UTC) (5 days).
+
+Please give a warm welcome to the The Graph team, particularly @abarmat, @tmigone, @Pedro | Graph Foundation and @pcarranzav, who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2022-10-the-graph-l2-bridge-contest
+
+{Embed}
+https://code4rena.com/contests/2022-10-the-graph-l2-bridge-contest
+Code4rena The Graph L2 bridge contest
+$50,000 USDC
+7 October 2022—12 October 2022
+Code4rena - ARCHIVE-Q4-2022 - thegraph-oct7 [1027609299008114720].txt_Files/3c34567a-4585-49f7-a70c-3337ab6fd2c3-179AA
+
+{Reactions}
+C4Keycap (10) 
+
+[10/06/2022 16:31] supernovahs
+Good opportunity to learn about the graph
+
+
+[10/06/2022 16:35] devabdee
+Yea bro. Heard a lot about The Graph, finally gonna explore it
+
+
+[10/07/2022 13:53] ladboy233
+Good opportunity to learn about the graph
+
+
+[10/07/2022 19:30] Franfran#5067
+Good graph to learn about the opportunity
+
+{Reactions}
+😂 
+
+[10/07/2022 20:29] pcarranzav
+gm Wardens!
+@tmigone, @abarmat and I are here to answer any questions you have as you go through the code. Happy hunting!
+
+{Reactions}
+❤️ (5) 
+
+[10/07/2022 21:52] aviggiano
+bridges are hot rn 👀
+
+
+[10/07/2022 22:05] zzykxx
+Why is KYC obligatory?
+
+
+[10/08/2022 06:21] pfapostol
+Oh, I didn't notice KYC, that would be a problem
+
+
+[10/08/2022 06:25] codingnamekiki
+nani where
+
+
+[10/08/2022 06:26] codingnamekiki
+https://prnt.sc/Ihty1Z1dsiGY
+
+{Embed}
+https://prnt.sc/Ihty1Z1dsiGY
+Screenshot
+Captured with Lightshot
+Code4rena - ARCHIVE-Q4-2022 - thegraph-oct7 [1027609299008114720].txt_Files/WXrMUvr6SMur1qw69oLS4w-BF590.png
+
+
+[10/08/2022 06:26] codingnamekiki
+oh nvm
+
+
+[10/08/2022 08:17] codecipher9
+will the KYC needed for every contest from now on or is it only for this one ?
+
+
+[10/08/2022 08:18] codingnamekiki
+l think it's only for this particular contest, as you can see the blur contest doesn't have the KYC rule
+
+
+[10/08/2022 08:19] zhyd1997
+Hi, team
+
+what's the SLOC (eg, 16 here) mean?
+
+
+[10/08/2022 08:19] zhyd1997
+https://github.com/code-423n4/2022-10-thegraph#files-in-scope
+
+
+[10/08/2022 08:19] zhyd1997
+only this line of code (L16) is in scope? 👀
+
+
+[10/08/2022 08:19] zhyd1997
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - thegraph-oct7 [1027609299008114720].txt_Files/Screen_Shot_2022-10-08_at_16.18.17-979DF.png
+
+
+[10/08/2022 08:24] codingnamekiki
+no l think u misunderstood this isn't the line of code that needs to be audited in the contract. 😅  SLOC is the "Source lines of code" which the contract holds.
+
+{Reactions}
+💯 
+
+[10/08/2022 08:24] zhyd1997
+but this file has 40 lines of code: https://github.com/code-423n4/2022-10-thegraph/blob/main/contracts/gateway/BridgeEscrow.sol
+
+
+[10/08/2022 08:25] zhyd1997
+omit empty lines and comments?
+
+
+[10/08/2022 08:25] JohnSmith#1623
+audit L36 but not all of it just 86% 🤣
+
+{Reactions}
+🤣 (3) 
+
+[10/08/2022 08:26] codingnamekiki
+yes comments don't count
+
+{Reactions}
+👍 (2) 
+
+[10/08/2022 08:27] zhyd1997
+Thanks 🙏
+
+{Reactions}
+hi5 
+
+[10/08/2022 11:09] kartoonjoy
+Hi @Pedro | Graph Foundation!
+
+{Reactions}
+👀 
+
+[10/08/2022 12:08] pcarranzav
+Pedro will be better able to answer the questions about KYC
+
+
+[10/08/2022 12:32] jeiwan
+This should be a private or an invite-only contest as per Code4rena docs:
+https://docs.code4rena.com/roles/certified-contributors
+Weird that it's allowed to submit findings before getting certified and passing OFAC checks. We're risking not getting paid at all since certification might take a long time or a warden might not have the papers required by Provenance.
+There will be many complains from people who submitted findings but haven't certified.
+
+{Embed}
+https://docs.code4rena.com/roles/certified-contributors
+Certified contributors
+In order to create opportunities for contributions which rely on establishment of trust, Code4rena allows community members to opt into certifying their identity and entering into a simple agreement.
+
+
+[10/08/2022 12:39] pfapostol
+This information is written on the contest page, if people have submitted a report without even reading it, it's strange. But in general it would be better if the contest was private
+
+{Reactions}
+👍 (2) 
+
+[10/08/2022 14:49] elku.cryptos
+@abarmat or any other sponsor. I am trying to run the test with gas report. But I get the following series of errors:
+`curl: (7) Failed to connect to localhost port 8545 after 1 ms: Connection refused`
+
+and there is no gas report. even after all the 545 tests have passed.
+
+
+[10/08/2022 14:51] pcarranzav
+Hi @ElKu  That error is expected as the script checks if the local node is up - eventually it will succeed. Are you checking the reports folder? It won’t output the report to the terminal
+
+
+[10/08/2022 14:54] elku.cryptos
+@pcarranzav oh thanks. was looking at the terminal. yes. its in the reports folder. Do you know why this file looks weird? Not sure if its because I am in windows?
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - thegraph-oct7 [1027609299008114720].txt_Files/unknown-5C290.png
+
+
+[10/08/2022 15:05] pcarranzav
+Yeah it has the escape sequences to format in the terminal. My suggestion would be to `cat reports/gas-report.log` in a terminal.
+I’m not sure if the windows cmd line will format it correctly, but if not you can try in the Windows Subsystem for Linux maybe?
+
+
+[10/08/2022 15:10] pcarranzav
+Unless you’re already using WSL? Not sure how you would’ve managed to run the bash script for the test otherwise… sorry I haven’t used Windows in ages 😅
+
+
+[10/08/2022 15:15] elku.cryptos
+hey thx a lot. I am already using WSL. the `cat reports/gas-report.log` command works fine. so no issues. I was opening the report in VSCode and it was showing the `esc` char.
+
+
+[10/08/2022 15:16] pcarranzav
+Good to hear! I’ll make a note to make the test:gas script cat the file at the end, should make it easier to use
+
+{Reactions}
+🙏 (2) 
+
+[10/08/2022 18:13] pedrod89
+hey @zzykxx @pfapostol 
+
+**On KYC:** 
+This contest must follow The Graph Foundation's current AML policy, which mandates a KYC process for those receiving any type of funds paid by us. We are actively rethinking the current policy to become less strict, but that's how things are atm. 
+
+Rest assured, we won't have access to your private information - we just required Code4rena to ensure us wardens go through their KYC (which in turn, is done with an external service provider).
+
+
+[10/08/2022 18:25] pfapostol
+KYC is very restrictive of countries under US sanctions, which is not very logical since Ethereum transactions are anonymous (in a way).
+
+
+[10/08/2022 18:40] pedrod89
+I do understand the frustration. Like I said, we're working on making it less strict. 
+Hope you can still participate!
+
+
+[10/08/2022 19:08] codecipher9
+will KYC be obligatory in all the future contests or it's exceptionally for this one ?
+
+
+[10/08/2022 19:53] pcarranzav
+I assume until the policy changes, as Pedro mentioned, any contests sponsored by The Graph would also need KYC. But this doesn't apply to contests from other sponsors (unless they too require KYC I suppose).
+
+{Reactions}
+👍 
+
+[10/08/2022 22:48] birdy0219
+```type``` for windows cli / dos
+
+{Reactions}
+💯 
+
+[10/09/2022 18:10] 0xmatt#3768
+Shame about the kyc. Guess I get a few days studying in instead.
+
+
+[10/09/2022 18:22] bvvq
+What coverage meaning?
+
+
+[10/09/2022 19:44] trust90
+Why are people so terrified of kyc? If you're doing it legally you have nothing to be afraid of.
+
+{Reactions}
+👆 (2) 
+
+[10/09/2022 20:01] pfapostol
+if you're doing it legally, and:
+1. your country has no conflicts with the USA,
+2. in your country it is legal to provide security services without a license (certification)
+
+{Reactions}
+💯 (3) 
+
+[10/09/2022 20:31] trust90
+fair points. Don't think it applies to 1/10th of the people complaining about KYC. But I could be wrong
+
+{Reactions}
+👍 
+
+[10/10/2022 05:30] kamensec
+Hey quick question, just want to DM regarding an issue. Which one of  @abarmat , @tmigone , @Pedro | Graph Foundation nd @pcarranzav  would be best right now?
+
+
+[10/10/2022 05:31] pcarranzav
+👋 you can DM me @kamensec
+
+
+[10/10/2022 09:19] 0xmatt#3768
+3. If it being publicly known you work in this space could affect your safety (and before you say nobody will know can I draw your attention to Celsius' disclosure documents that publicly identify KYC'd customers)
+4. If you understand that the entire reason for cryptocurrency existing is pseudonymous, censorship resistant, peer-to-peer value transfer and that shoehorning in KYC means the whole space would be better off just using centralized servers with PHP and MySQL for their apps.
+5. If your disappointment comes from allowing people to do the work and submit findings but then not getting paid for them, instead of knowing which users are and aren't KYC and stopping submissions for non-KYC'd people.
+
+But if someone's happy doing KYC then great for them. And if you're not it's a personal choice and there's no benefit yucking other peoples yum.
+
+{Reactions}
+💯 (9) 
+
+[10/10/2022 11:08] zzykxx
+Privacy, if there's no need for some kind of information to provide a service then I don't want to give that information.
+
+
+[10/10/2022 15:23] ladboy233
+Another data of typical auditing: after reading the documentation, I realize my brain power is consumed up.
+
+{Reactions}
+😂 (6) 🪫 
+
+[10/11/2022 01:54] _oceansky
+I just bumped now on this project, quite surprised with the "important note", this is the first time i encounter  like this in code4rena. This might become a trend ouch.😢 . Hopefully not. Privacy is really important matter.
+
+
+[10/11/2022 01:55] 100proof
+If it makes any difference, and it might not, C4 has a really interesting way of doing KYC where C4 never actually learns your identity but a third-party (called Provenance) knows who both parties are.
+
+
+[10/11/2022 10:32] minh___
+it has been done before with the open sea contest
+
+
+[10/11/2022 13:15] tmigone
+Can you clarify which deposit and withdraw you mean?
+
+
+[10/11/2022 13:40] ladboy233
+never mind sir. I am just studying the cross chain message passing mechanism 🙂 The docs from arbitrium already clear my confusion. Thanks
+
+
+[10/11/2022 19:21] acegawd
+@Pedro | Graph Foundation DM
+
+{Reactions}
+👍 
+
+[10/11/2022 19:25] pcarranzav
+@0xmint hi! just in case, if it's for technical questions, better DM me or @abarmat / @tmigone
+
+{Reactions}
+👍 
+
+[10/11/2022 20:04] yongkiws
+warden must need kyc for this contest?
+
+{Reactions}
+👍 (3) 
+
+[10/11/2022 20:29] pcarranzav
+yes @yongskiws, this is a requirement to be eligible for payments in this particular contest
+
+
+[10/11/2022 22:52] cryptphi
+hi, are the contracts for the l1 and l2 routers available to peruse ?
+
+
+[10/11/2022 23:27] tmigone
+The code is available here:
+- https://github.com/OffchainLabs/arbitrum/tree/master/packages/arb-bridge-peripherals/contracts/tokenbridge/ethereum/gateway
+- https://github.com/OffchainLabs/arbitrum/tree/master/packages/arb-bridge-peripherals/contracts/tokenbridge/arbitrum/gateway
+
+Deployed contracts can be found here: https://developer.arbitrum.io/useful-addresses
+
+However I need to point out these contracts are not part of the scope for this contest.
+
+
+[10/11/2022 23:28] cryptphi
+many thanks.....
+
+{Reactions}
+hearteyesrobot 
+
+[10/11/2022 23:28] tmigone
+I understand it can still be useful to understand Arbitrum and could potentially lead to findings on the contracts that are part of the contest.
+
+
+[10/11/2022 23:30] cryptphi
+yep, hence my request 🙂 , trying to follow the trails
+
+{Reactions}
+chefskiss (2) 
+
+[10/12/2022 09:23] yongkiws
+how do i kyc?
+
+
+[10/12/2022 10:11] cryptphi
+https://docs.code4rena.com/roles/certified-contributors#certification-process-and-constraints
+
+{Embed}
+https://docs.code4rena.com/roles/certified-contributors
+Certified contributors
+In order to create opportunities for contributions which rely on establishment of trust, Code4rena allows community members to opt into certifying their identity and entering into a simple agreement.
+
+
+[10/12/2022 12:00] trust90
+Is there an example for a callhook receiver that is planned to be registered which can be considered in scope ?
+
+
+[10/12/2022 12:20] cryptphi
+Hi, who can I DM from The Graph on some clarification matters ? should I DM @tmigone ?
+
+
+[10/12/2022 12:28] pcarranzav
+Yes, or @abarmat or me - I’m online if you wanna dm
+
+
+[10/12/2022 12:32] cryptphi
+cool, thanks
+
+
+[10/12/2022 12:44] pcarranzav
+these are **not** in scope, and still WIP, but in case the examples are useful:
+- This PR would add some L1/L2 bridging with callhooks to the billing flow: https://github.com/edgeandnode/billing-contracts/pull/22/files#diff-f9ba9dbb22b0567347fbb9255e10a2843f328f35e2ee3dd37f8b616c2dd034d8R166-R175 
+- This PR would be used to migrate subgraphs from L1 to L2. It won't look right, because I still haven't wrapped the receiveSubgraphFromL1 function inside an onTokenTransfer function: https://github.com/graphprotocol/contracts/pull/585/files#diff-00d72711833706736d9e64439acf574cf449c8ef042f78d400b7f46da7762b17R66-R94
+
+{Embed}
+https://github.com/edgeandnode/billing-contracts/pull/22/files
+feat: add a BillingConnector to send funds to a Billing contract on...
+Code4rena - ARCHIVE-Q4-2022 - thegraph-oct7 [1027609299008114720].txt_Files/2223590-A9EF1
+
+{Embed}
+https://github.com/graphprotocol/contracts/pull/585/files
+(WIP/experimental) migration of subgraphs to L2 through GNS by pcar...
+(This is Work in Progress and I'm still playing with ways of doing this, just putting the PR up for visibility and to get CI tests)
+Code4rena - ARCHIVE-Q4-2022 - thegraph-oct7 [1027609299008114720].txt_Files/2223590-A9EF1
+
+
+[10/12/2022 12:45] trust90
+Thanks
+
+
+[10/12/2022 15:26] 0xbepresent
+Nice project, well documented and programmed!. Great opportunity to know how Arbitrum bridges works 👌
+
+{Reactions}
+hearteyesrobot (4) 👍 💯 (2) 
+
+[10/12/2022 18:52] 0x4non
+Hi guys, code4rena login seems not be workig, at least for me, its any oder way of sending you findings?
+
+
+[10/12/2022 19:15] cryptphi
+you can try again, i am logged in and can submit findings.
+
+
+[10/12/2022 20:02] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **The Graph L2 bridge** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a gardener if you have questions along the way!
+
+{Reactions}
+🔥 (9) C4Keycap (2) hi5 (2) 
+
+[10/12/2022 20:03] Quisex#4394
+🔥🔥
+
+
+[10/12/2022 20:28] tmigone
+Thanks everyone for participating!
+
+{Reactions}
+🙌 (12) 
+
+[11/16/2022 22:53] xyzbtchunt
+when will the announcement appear?
+
+
+[11/18/2022 13:05] cloudellie
+Hi all, still working on it, hopefully before EOD today. If not, I’ll be working on the weekend
+
+{Reactions}
+C4Keycap (5) 
+
+[11/21/2022 20:19] itsmetechjay
+🤑 🎉 Awards for **The Graph**: 
+
+$25,057.77 USDC » @Trust 
+$5,676.96 USDC » @0xladboy | Sparkware 
+$4,328.22 USDC » @csanuragjain 
+$2,278.81 USDC » @d3e4 
+$1,803.21 USDC » @cccz 
+$1,773.72 USDC » @catchup 
+$1,752.93 USDC » @joestakey 
+$1,054.18 USDC » @0xSmartContract 
+$954.97 USDC » @IllIllI 
+$622.91 USDC » @delfin454000 
+$622.91 USDC » @rbserver 
+$602.12 USDC » mics
+$602.12 USDC » @brgltd 
+$321.70 USDC » @0x1f8b 
+$321.70 USDC » @c3phas 
+$271.42 USDC » @ElKu 
+$271.42 USDC » @__141345__ 
+$71.07 USDC » @Bnke 
+$71.07 USDC » @RaymondFam 
+$71.07 USDC » @gogo 
+$71.07 USDC » @mcwildy 
+$71.07 USDC » @thinklab 
+$71.07 USDC » @fatherOfBlocks 
+$71.07 USDC » @0xNazgul 
+$71.07 USDC » @Rotcivegaf 
+$71.07 USDC » @ajtra 
+$50.28 USDC » @Chom 
+$50.28 USDC » @chrisdior4 
+$50.28 USDC » @bobirichman7542 
+$50.28 USDC » @Rahoz 
+$50.28 USDC » @Waze 
+$50.28 USDC » @nicobevi.eth 
+$50.28 USDC » @bulej93 
+$50.28 USDC » @anon 
+$50.28 USDC » @Josiah 
+$50.28 USDC » @zzzitron 
+$20.79 USDC » @Deivitto 
+$20.79 USDC » RockingMiles (@robee, @pants)
+$20.79 USDC » @Rolezn 
+$20.79 USDC » @Saintcode_ 
+$20.79 USDC » @emrekocak 
+$20.79 USDC » @sakman 
+$20.79 USDC » KoKo
+$20.79 USDC » @carlitox477 
+$20.79 USDC » @RedOneN 
+$20.79 USDC » @aysha 
+$20.79 USDC » @gianganhnguyen 
+$20.79 USDC » @0xdeadbeef 
+$20.79 USDC » @martin11 
+$20.79 USDC » @pedr02b2 
+$20.79 USDC » @EricTee 
+$20.79 USDC » @B2 
+$20.79 USDC » @Tomio 
+$20.79 USDC » @TomJ 
+$20.79 USDC » @saian 
+$20.79 USDC » Shinchan (@Sm4rty, @Prasant Gupta, @Rohan)
+$20.79 USDC » @ret2basic.eth 
+$20.79 USDC » @medikko 
+$20.79 USDC » @++Jujic#5558 
+$20.79 USDC » @Pheonix 
+$20.79 USDC » @zishansami 
+$20.79 USDC » @gerdusx 
+
+🏁 Findings summary
+---------------------------
+Med risk findings: 8 total, 4 unique
+Gas optimization reports: 44 
+QA reports: 30 
+
+Awards will be distributed on Polygon within the next 1-2 weeks. Congratulations all! 💸 💸 💸
+
+*Note: If you participated in this contest and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions *
+
+{Reactions}
+hi5 (4) 🎉 (2) 
+
+[11/21/2022 20:23] carlitox477
+Not much, but it is honest work xD
+
+{Reactions}
+😂 (3) 
+
+[11/21/2022 21:41] road220
+@Trust, just crashed it!
+
+{Reactions}
+❤️ (3) 👏 (9) 💯 (3) 
+
+[11/21/2022 23:03] ladboy233
+🫡
+
+
+[11/21/2022 23:03] ladboy233
+:hi5:
+
+{Reactions}
+hi5 (2) 
+
+[11/21/2022 23:03] ladboy233
+💸
+
+
+[11/22/2022 01:26] chaduke3730
+@zzzitroncongrats
+
+{Reactions}
+thankyou 
+
+[11/23/2022 12:48] jagstock
+If no KYC compliant, then no reward ?
+
+
+[11/23/2022 12:51] cloudellie
+Wardens must be certified to receive their awards, correct. But everyone who submitted satisfactory findings is listed in the awards announcement (and gets credit on the leaderboard) regardless of certified/KYC status.
+
+{Reactions}
+👍 
+
+[11/23/2022 12:52] jagstock
+Can we see report comments? I submitted gas and QA report, don't see my name
+
+
+[11/23/2022 12:54] cloudellie
+The report will be published a little later, and the findings repo will be opened at that time. Note that we don't publish the results until the sponsor confirms that all mitigations are complete.
+
+{Reactions}
+👍 
+
+[11/23/2022 13:00] jagstock
+Is the evaluation based upon new rules ? It makes sense
+
+
+[11/23/2022 13:01] cloudellie
+Yes.
+
+
+[12/02/2022 17:30] fatherofblocks
+@CloudEllie - away  Hi! Just today they confirmed that my KYC was approved, should I let them know somewhere that they can already make the payment? or just wait?
+
+{Reactions}
+👍 
+
+[12/02/2022 17:33] liveactionllamac4
+Hi! I'll make sure you get marked as eligible for payment. Thanks!
+
+{Reactions}
+❤️ 
+
+[12/08/2022 10:28] rohan16
+Hi are payments done
+
+
+[12/08/2022 10:28] rohan16
+since I haven't received the payment for this contest yet
+
+
+[12/08/2022 10:43] rohan16
+20.79 @Shinchan
+
+
+[01/28/2023 16:54] kiki_dev
+So to get paid from any contest we have to complete kyc?
+
+
+[01/28/2023 16:54] kiki_dev
+I was thinking it just applied to private contest
+
+
+[01/30/2023 10:43] cloudellie
+No, not for all contests - just the ones where the sponsor indicates that is a requirement (and also classified contests).
+
+{Reactions}
+thankyou 
+
+[01/30/2023 10:45] cloudellie
+The requirement is always posted in the contest repo, which is mirrored on the C4 website.
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - thegraph-oct7 [1027609299008114720].txt_Files/image-3CA7D.png
+
+
+[04/02/2023 12:53] bnke0x0
+I have got my +certified, how can receive my reward?
+
+
+[04/03/2023 12:38] cloudellie
+Yes, we've noted this and you'll be included in the next round of award distribution!
+
+{Reactions}
+chefskiss 
+
+==============================================================
+Exported 105 message(s)
+==============================================================
